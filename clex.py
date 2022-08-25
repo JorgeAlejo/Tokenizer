@@ -7,8 +7,9 @@ class MiniCLexer(sly.Lexer):
     # Definicion de simbolos
     tokens = {
         # Palabras reservadas
-        'VAR', 'PRINT', 'IF', 'ELSE', 'WHILE', 
-        'RETURN', 'TRUE', 'FALSE',
+        'VAR', 'PRINT', 'IF', 'ELSE', 'WHILE', 'FUN' 
+        'RETURN', 'TRUE', 'FALSE', 'CLASS', 'FOR', 'NIL',
+        'THIS', 'SUPER',
 
         # Operadores (longitud 2)
         'LT', 'LE', 'GT', 'GE', 'EQ', 'AND', 'OR', 'NE', 'NOT',
